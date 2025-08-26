@@ -45,7 +45,6 @@ def calcular_juros_simples(capital_inicial: float, taxa_anual: float, tempo_anos
     return round(montante_final, 2)
 
 
-
     return 0
 
 
