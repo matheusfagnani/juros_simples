@@ -43,6 +43,7 @@ def calcular_juros_simples(capital_inicial: float, taxa_anual: float, tempo_anos
     juros = capital_inicial * (taxa_anual / 100) * tempo_anos
     montante_final = capital_inicial + juros
     return round(montante_final, 2)
+    
 
 
     return 0
