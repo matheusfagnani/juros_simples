@@ -38,6 +38,14 @@ def calcular_juros_simples(capital_inicial: float, taxa_anual: float, tempo_anos
         3375.00
     """
     
+    if capital_inicial < 0 or taxa_anual < 0 or tempo_anos < 0:
+        raise ValueError("Capital, taxa e tempo devem ser valores não negativos.")
+    juros = capital_inicial * (taxa_anual / 100) * tempo_anos
+    montante_final = capital_inicial + juros
+    return round(montante_final, 2)
+
+
+
     return 0
 
 
