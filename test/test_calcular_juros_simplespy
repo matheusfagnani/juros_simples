@@ -8,7 +8,7 @@ Este arquivo de teste está organizado em três categorias lógicas:
 """
 
 import pytest
-from calculadora_financeira import calcular_juros_simples
+from calculadora_financeira  import calcular_juros_simples 
 
 
 

@@ -40,6 +40,4 @@ def calcular_juros_simples(capital_inicial: float, taxa_anual: float, tempo_anos
     
     return 0
 
-    # Validação de entradas
-    if capital_inicial < 0 or taxa_anual < 0 or tempo_anos < 0:
-        raise ValueError("Capital, taxa e tempo devem ser valores não-negativos.")
+
