@@ -42,8 +42,39 @@ def calcular_juros_simples(capital_inicial: float, taxa_anual: float, tempo_anos
         raise ValueError("Capital, taxa e tempo devem ser valores não negativos.")
     juros = capital_inicial * (taxa_anual / 100) * tempo_anos
     montante_final = capital_inicial + juros
-    return round(montante_final, 2)
+    return round(montante_final, 2) 
+
+
+
+
+
+
+if __name__ == "__main__":
     
+
+
+
+
+    # Exemplos de uso
+    try:
+        print(calcular_juros_simples(1000.00, 5.0, 2.0))  # Deve retornar 1100.00
+        print(calcular_juros_simples(2500.00, 3.5, 10.0)) # Deve retornar 3375.00
+    except ValueError as e:
+        print(f"Erro: {e}")
+
+    
+
+
+    
+
+                                                                                                                                                                                                                                                                                                                                  
+
+
+
+
+
+
+
 
 
     return 0
